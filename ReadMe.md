@@ -40,7 +40,7 @@ This project uses python to create a user-friendly script that helps explore a d
  
  The code uses three python libraries (i.e. Pandas, NumPy and time). The code defines multiple function to perform different tasks to achieve the overall goal of this code.
  
- -`get_filters`: It is an interactive function the allows the user to choose which city he needs to explore its data. Also, it allows the user to set the desired filters based on the month or day of the week. The option of filtering the data can be skipped to explore the entire dataset
+ -`get_filters`: It is an interactive function the allows the user to choose which city he needs to explore its data. Also, it allows the user to set the desired filters based on the month or day of the week. The option of filtering the data can be skipped to explore the entire datase.
  - `load_data`: This function loads the data of the required data from the CSV file into Pandas DataFrame. The data in the `Start Time` column is transformed using `time` library function to produce two new columns representing the month and day of the week for each trip. The filters specified by the user are then applied if any.
  - `time_stats`, `station_stats`, `trip_duration_stats` and `user_stats` provides the required statistics using the data in the filtered dataframe for trip start/end time, trip start/end stations, trip duration and user status respectively.
  
